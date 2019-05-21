@@ -33,12 +33,11 @@ class App extends Component {
             <
             h1 className = "Header" > React Wars < /h1>     <
             CharacterList characters = { this.state.starwarsChars }
-            cars = { this.state.starwarsChars.vehicles }
-            />
-            console.log(this.state.starwarsChars.vehicles) <
-            /div>
-        );
-    }
+        }
+        /> < /
+        div >
+    );
+}
 }
 
 export default App;

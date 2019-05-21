@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-const Character = ({ info }) => {
+const Character = ({ props }) => {
     return ( <
         div className = 'character' >
         <

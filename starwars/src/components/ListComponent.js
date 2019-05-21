@@ -7,9 +7,10 @@ const CharacterList = (info) => {
             div >
             <
             h1 > Characters < /h1> {
-            info.character.map(character => {
+            info.map(character => {
                 return <
                     Character i = { character.created }
+                character = { info }
                 />
             })
         } <
